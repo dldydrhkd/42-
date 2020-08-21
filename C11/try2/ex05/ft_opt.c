@@ -1,30 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_map.c                                           :+:      :+:    :+:   */
+/*   ft_opt.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yong-lee <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/08/20 19:33:53 by yong-lee          #+#    #+#             */
-/*   Updated: 2020/08/21 08:58:46 by yong-lee         ###   ########.fr       */
+/*   Created: 2020/08/21 13:47:42 by yong-lee          #+#    #+#             */
+/*   Updated: 2020/08/21 13:59:50 by yong-lee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-
-int		*ft_map(int *tab, int length, int (*f)(int))
+int		ft_add(int n1, int n2)
 {
-	int		i;
-	int		*res;
+	return (n1 + n2);
+}
 
-	i = 0;
-	res = (int *)malloc(sizeof(int) * length);
-	if (res == 0)
-		return (0);
-	while (i < length)
-	{
-		res[i] = f(tab[i]);
-		i++;
-	}
-	return (res);
+int		ft_sub(int n1, int n2)
+{
+	return (n1 - n2);
+}
+
+int		ft_mul(int n1, int n2)
+{
+	return (n1 * n2);
+}
+
+int		ft_divide(int n1, int n2)
+{
+	return (n1 / n2);
+}
+
+int		ft_mod(int n1, int n2)
+{
+	return (n1 % n2);
 }
