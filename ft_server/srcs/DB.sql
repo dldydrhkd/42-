@@ -1,0 +1,4 @@
+
+CREATE DATABASE IF NOT EXISTS wordpress;
+CREATE USER IF NOT EXISTS 'yong-lee'@'localhost' IDENTIFIED BY '1234';
+GRANT ALL PRIVILEGES ON wordpress.* TO 'yong-lee'@'localhost' WITH GRANT OPTION;
