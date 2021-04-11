@@ -65,3 +65,9 @@
 - 그러므로 기본적으로 Ray Tracing에서 조명에 대한 것은 global illumination으로 처리된다
 
 - Ray와 Object 교차점(intersection point)에서 계산된 shading은 이 표면에서 발생한 반사광에 비친 또 다른 표면의 shading에도 영향을 미치는 것이다.
+
+
+
+### 5. minilibx_opengl 실행하기
+
+
