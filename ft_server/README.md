@@ -687,7 +687,7 @@ apt-get install -y wget
 
     ```js
     wget https://wordpress.org/latest.tar.gz
-    tar-xvf latest.tar.gz
+    tar -xvf latest.tar.gz
     mv wordpress/ var/www/html
     ```
 
