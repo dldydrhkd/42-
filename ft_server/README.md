@@ -311,7 +311,7 @@
 ### 도커로 데비안 버스터 이미지 생성
 
 ```js
-docker pull debian: buster
+docker pull debian:buster
 ```
 
 - docker images 명령어로 확인
